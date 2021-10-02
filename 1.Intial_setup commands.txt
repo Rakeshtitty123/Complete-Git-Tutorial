@@ -1,0 +1,37 @@
+For checking whether git installed or not---
+
+$ git 
+
+To provide linux command interface in windows git bash was made.
+
+$ pwd (present worling directory)
+
+---------------------------------------------------------------------------------------------
+
+Configuring the username and useremail for the given repo
+
+$ git config --global user.name "Rakeshtitty"
+
+User email:
+
+$ git config --global user.mail "rakeshtitty@gmail.com"
+
+---------------------------------------------------------------------------------------------
+
+For checking the username and user email on the current repo
+
+$ git config --list
+
+or
+
+$ git config --user.name
+
+$ git config --user.email
+
+-------------------------------------------------------------------------------------------------
+
+For choosing the editor in throught git
+
+$ git config --global code.editor vim
+
+--------------------------------------------------------------------------------------------------

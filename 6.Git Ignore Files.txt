@@ -1,0 +1,47 @@
+***********************************Git Ignore File***************************************************
+
+The .gitignore file is a text file that tells Git which files or folders to ignore in a project.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Need:
+
+As a part of software , the code may consists some bugs which are affecting on the current working folder in our comuter,
+in some files the code may be irrevalant and of no use in those cases we should ignpre these files in the git repo
+as it is making an error to our file system.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Steps:
+
+To create a local .gitignore file, create a text file and name it .gitignore (remember to include the . at the beginning). 
+Then edit this file as needed. Each new line should list an additional file or folder that you want Git to ignore.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Ignoring the files:
+
+-------------------------------------------------------------------------------------------------
+1.Ignoring a a file
+
+Add the names of files which are to be ignored in this .gitignore file.
+
+2.Ignoring all the files with the same extension:
+
+You can remove all the files with the same extension by making changes in .gitignore file *.(extension)
+
+For example:*.log ,*.txt  =====> (All the text and log files will be ignored now)
+
+3.Ignoring a directory
+
+Add "[DIRECTORY_NAME]/" in gitignore file.For example:(dir/,static/)
+
+Note:By the above command all the directory files having the same name will be ignored withought any bother whether the file is outer or inner
+
+If we want to ignore outer directory use "/[DIRECTORY_NAME]/"
+
+We can specify the path fo directory for ignoring a particular directory "/[Dir]/Dir1]"
+
+If we make any changes in ignoring files there won't be any change in the git status of our repo.
+
+----------------------------------------------------------------------------------------------------------------------

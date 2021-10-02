@@ -1,0 +1,40 @@
+For deleting the total .git folder
+
+$ git rm -rf DIRECTORY_NAME
+
+--------------------------------------------------------------------------------------------------------------------------
+
+For cloning the git repo files into the pwd folder
+
+$ git clone "LINK FOR REPO"
+
+---------------------------------------------------------------------------------------------------------------------
+
+If u made any changes in the cloned file you can see the chnages through :
+ 
+$ git status
+
+**----------changed files will be displayed over their with red text---------------------**
+
+---------------------------------------------------------------------------------------------------------------------
+
+To add the changed files into staging area:
+
+$ git add --a
+
+------------------------------------------------------------------------------------------------------------------------
+
+Commit the change after staging:
+
+$ git commit -m "Changes Commited"
+
+--------------------------------------------------------------------------------------------------------------------------
+
+To review the past commits on the current repo:
+ 
+$ git log
+
+**--------for quitting from the git log type 'q' **----------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,35 @@
+*************************************************************Moving and Renaming files in Git********************************************
+
+Manual Renaming of Files:
+
+If we have renamed the files the git status will show that "[PREVIOUS FILE NAME] was deleted and [CURRENT FILE NAME] is an untracked file"
+
+We should add manully this file again:
+
+$ git add .a
+
+If we see the status of git now,it recognises that the file name is renamed and output the same.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Using Git command for renaming and staging files:
+
+$ git mv [CURRENT_FILE] [RENAMED_FILE]
+
+For example: $ git mv first.txt first_renamed.txt
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Removing the Files in git repo:
+
+For removing the files in git repo:
+
+$ git rm [FILE_NAME]
+
+Note:This rm command will remove the file and it will automatically stage the files also.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+To Untrack the files in git repo:
+
+$ git rm --cached [FILE]

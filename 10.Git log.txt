@@ -1,0 +1,194 @@
+*****************************************************************Git Log********************************************************
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+To remove the git repo :
+
+$ rm -rf .git
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+For Listing all the commit changes for our current repo
+
+$ git log -p
+
+Author:one who created the files
+
+Commit:one who commited the files
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+To List the changes in previous 'n' number of commits ,give the number at last of the above command
+
+$ git log -p -3
+
+(For Listing changes in last 3 commits)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+For the statistics of all commits
+
+$ git stat
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+For getting all commits in one line
+
+$ git --pretty=oneline
+
+For getting all commits in short
+
+$ git --pretty=short
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+For getting all commits as per the time
+
+$ git log --since=2.days
+
+$ git log --since=2.weeks
+
+$ git log --since=2.months
+
+$ git log --since=2.years
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+We can get the commit information in different ways of format using the command:
+
+$ git log --pretty=format:"%h -- %aN"
+
+The above command gives the commits in the format %h(commit hash) -- %aN(author name)
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Some of the place holder values and their symbols
+
+Placeholders that expand to information extracted from the commit:
+
+%H
+commit hash
+
+%h
+abbreviated commit hash
+
+%T
+tree hash
+
+%t
+abbreviated tree hash
+
+%P
+parent hashes
+
+%p
+abbreviated parent hashes
+
+%an
+author name
+
+%aN
+author name (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ae
+author email
+
+%aE
+author email (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%al
+author email local-part (the part before the @ sign)
+
+%aL
+author local-part (see %al) respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ad
+author date (format respects --date= option)
+
+%aD
+author date, RFC2822 style
+
+%ar
+author date, relative
+
+%at
+author date, UNIX timestamp
+
+%ai
+author date, ISO 8601-like format
+
+%aI
+author date, strict ISO 8601 format
+
+%as
+author date, short format (YYYY-MM-DD)
+
+%ah
+author date, human style (like the --date=human option of git-rev-list[1])
+
+%cn
+committer name
+
+%cN
+committer name (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ce
+committer email
+
+%cE
+committer email (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%cl
+committer email local-part (the part before the @ sign)
+
+%cL
+committer local-part (see %cl) respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%cd
+committer date (format respects --date= option)
+
+%cD
+committer date, RFC2822 style
+
+%cr
+committer date, relative
+
+%ct
+committer date, UNIX timestamp
+
+%ci
+committer date, ISO 8601-like format
+
+%cI
+committer date, strict ISO 8601 format
+
+%cs
+committer date, short format (YYYY-MM-DD)
+
+%ch
+committer date, human style (like the --date=human option of git-rev-list[1])
+
+%d
+ref names, like the --decorate option of git-log[1]
+
+%D
+ref names without the " (", ")" wrapping.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+For changing the previous command
+
+$ git commit --amend
+
+An editor opens showing the previous commit type 'i' to insert the message and press escape for coming out of insert mode.
+
+Now to write and quit the previous command type ":wq"
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 
+**When we clone a file in pwd the downloaded folder is a git repository not the current pwd**
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+

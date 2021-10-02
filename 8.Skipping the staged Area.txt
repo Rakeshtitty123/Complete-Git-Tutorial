@@ -1,0 +1,23 @@
+**********************************************************Skipping Staged Area*******************************************************************
+
+------------------------------------------------------------------------------------------------------------------------------
+
+We can skip the staging area with direct commiting through command:
+
+$ git commit -a -m "Direct Commit Without Staging Area"
+
+Note: Only tracked files will be commited directly through the above command .All untracked files are remained as untarcked in git repo.
+
+We need to add specifically the untracked file through ad command:
+
+$ git add [UNTRACKEDFILE_NAME]
+
+----------------------------------------------------------------------------------------------------------------------------
+
+You can check the all the logs of commit throught log command
+
+$ git log
+
+To quit from git log type 'q' in git
+
+---------------------------------------------------------------------------------------------------------------------

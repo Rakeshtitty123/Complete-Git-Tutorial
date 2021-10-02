@@ -1,0 +1,25 @@
+********************************************Working with git repositories********************************************************
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Remote:A remote in Git is a common repository that all team members use to exchange their changes. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Command for adding remote to .git folder
+
+$ git add remote origin (url)
+
+Command for current git remote name:
+
+$ git remote
+
+or 
+
+$ git remote -v
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+pushing the files into git master branch
+
+$ git push -u origin master

@@ -1,0 +1,23 @@
+Differnce of Files:
+
+--------------------------------------------------------------------------------------------------------------
+
+If we modified the files and haven't commited yet then we can see the difference of files  using the command:
+
+$ git diff
+
+The above commmand compares the files of staging area and working directory.
+
+---------------------------------------------------------------------------------------------------------------
+
+For comparing the current staged area with the previous staged area:
+
+$ git diff --staged
+
+-------------------------------------------------------------------------------------------------------------
+
+Commit the changes using commit command
+
+$ git commit -m "Changes Commited"
+
+---------------------------------------------------------------------------------------------------------------

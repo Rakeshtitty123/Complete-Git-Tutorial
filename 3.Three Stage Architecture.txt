@@ -1,0 +1,44 @@
+Three Stage Architecture of Git:
+------------------------------------------------------------------------------------------------------------------------------------
+
+1.Working Directory
+
+2.Staging Area
+
+3.Git Directory(Repository)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1.Working Directory
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+The working directory is a single checkout of one version of the project. 
+
+This essentially means if you checkout a branch (e.g. master) and are sat on a particular commit (e.g. HEAD), 
+your working directory is the "umbrella" term for all your files and folders.
+
+-------------------------------------------------------------------------------------------------------------------
+
+2.Staging Area
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+The staging area is like a rough draft space, it's where you can git add the version of a file or multiple files 
+that you want to save in your next commit (in other words in the next version of your project)
+
+In simple terms,the files which we want to commit further will be sent to the staged area.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+3.Git Directory
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+The . git folder contains all the information that is necessary for your project in version control and all the information about commits, 
+remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that 
+you can roll back to history.
+
+
+
+

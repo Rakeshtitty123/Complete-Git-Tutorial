@@ -1,0 +1,60 @@
+Tracking the git repository
+
+-------------------------------------------------------------------------------------------------
+
+1.Creating the git repo
+
+----------------------------------------------------------------------------------------------
+
+Navigate to the required folder from git command line using cd command.
+
+-----------------------------------------------------------------------------------------------
+
+Making a git repository for the folder
+
+$ git init
+
+-------------------------------------------------------------------------------------------------
+
+To track all the files in the folder
+
+$ git add --a
+
+--------------------------------------------------------------------------------------------------
+
+For commiting the staged files in the git repo
+
+$ git commit -m "Intial Commit"
+
+----------------------------------------------------------------------------------------------------
+
+
+For Adding specific file im git
+
+$ git add FILE_NAME
+
+-------------------------------------------------------------------------------------------------------
+
+For Reintialising the git repo
+
+$ git init
+
+------------------------------------------------------------------------------------------------------
+
+For deleting a file in git repo
+
+$ git rm FILE_NAME
+
+-------------------------------------------------------------------------------------------------------
+
+For tracking the changes that we have made until now
+
+$ git log
+
+--------------------------------------------------------------------------------------------------------
+
+Warning:
+
+Never save the file names with spaces between them as git never considers the spaces
+It become hectic to remove them as the command never takes the total file name which leads us to fatal error
+

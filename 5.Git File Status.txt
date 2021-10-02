@@ -1,0 +1,85 @@
+************************************************Git File Status LifeCycle*******************************************
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+There are mainly 4 stages for a git repo:
+
+1.Untacked Stage
+
+2.Unmodified stage
+
+3.Modified stage
+
+4.Staged Area
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.Untracked stage:
+
+After intailsing the git through ($ git init command) a .git folder will be made.
+
+This is an empty git folder.
+
+Although we intialised a git repo for current working directory all the files were not added into the .git folder.
+
+This stage of files is called as untracked stage as files are not tracked yet.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+2.Unmodified stage:
+
+We will add all the files so that they can be tracked in the git folder through command:
+
+$ git add --a
+
+Now all the files were added into the .git folder and they were now being tarcked.
+
+We didn't modified the files after they were being tracked.We added all the files as they were into the .gitfolder
+
+This stage of files is called as unmodified stage of files.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+3.Modified Stage:
+
+After tracking(adding) files into git folder if we made any chnages to the files in our computer,the files in that stage are
+called as Modified Stage.
+
+We can see all the modifications through command:
+
+ $ git status
+
+-------------------------👿👿👿All the modified files will be in red text👿👿👿------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+4.Staged Area
+
+As we made the changes in our file these modified files not yet tracked in the .git folder
+
+To add the modified files into the .git folder:
+ 
+$ git add MODIFIED_FILE_NAME
+  
+or 
+
+You can track all the files again into the git folder using command:
+
+$ git add --a
+
+Now all the modified files are tracked into the .git folder and the git repo is up to date with all changes.
+
+You can commit the changes through commit command:
+
+$ git commit -m "Changes Commited"
+
+
+You can review the git repo with git status command:
+
+$ git status
+
+--------------------🥳🥳🥳🥳🥳🥳🥳ALL THE FILES WILL BE IN GREEN------------------------🥳🥳🥳🥳🥳🥳
+
+This stage of files called as staged area.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
