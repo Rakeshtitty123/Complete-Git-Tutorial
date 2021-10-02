@@ -8,7 +8,7 @@ $ rm -rf .git
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-For Listing all the commit changes for our current repo
+For Listing all the commited changes in our current repo
 
 $ git log -p
 
